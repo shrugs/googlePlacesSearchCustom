@@ -1,0 +1,24 @@
+A modification of the googlePlacesSearch plugin for SiriServerCore.
+
+__
+
+Installation:
+
+1) This is a modification, so replace the googlePlacesSearch/__init__.py file (from https://github.com/jimmykane/SiriServerCorePlugins) with this __init__.py
+
+1b) If using the JimmieKane server, you will want to change the name of my file to "googlePlacesSearch.py"
+
+2) Currently only responds to "I'm Hungry"
+
+3) To add new commands, (similar to smalltalk.py), copy/paste the code at the bottom (def search_im_hungry.....etc) to a new line
+
+4) Change @register to have new keywords
+
+5) Change name of def from search_im_hungry to whatever you want
+
+6) Change Title = <what to search for>
+
+__
+Bugs?
+
+Doesn't seem to want to work with the search query "cheap dinner". Seems to be a Google Places thing.
